@@ -34,7 +34,7 @@ const url ="https://us12.api.mailchimp.com/3.0/lists/0ca06a0ed9";
 
 const options = {
   method: "POST",
-  auth: "Pan_kaj:81ba3ce69f3c6e74c07ba8a7417c691e-us12"
+  auth: process.env.author
 }
 
    const request= https.request(url, options, function(response) {
