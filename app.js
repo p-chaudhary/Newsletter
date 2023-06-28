@@ -62,7 +62,3 @@ app.listen(process.env.PORT || 3000,function() {
   console.log("server is running on port 3000");
 });
 
-// api kry
-// 81ba3ce69f3c6e74c07ba8a7417c691e-us12
-//list // ID
-// 0ca06a0ed9
